@@ -3,6 +3,12 @@
     "description": "Customized Symfony components for headless web APIs",
     "type": "library",
     "license": "MIT",
+    "keywords": [
+        "symfony",
+        "symfony-components",
+        "headless",
+        "api"
+    ],
     "authors": [
         {
             "name": "Sandor Semsey",
