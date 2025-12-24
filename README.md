@@ -4,6 +4,8 @@
 
 This library contains customized Symfony components that can be used to create a headless web API.
 
+Supported Symfony version: 7.4 LTS
+
 ## Installation
 
 You can install this library via Composer:
