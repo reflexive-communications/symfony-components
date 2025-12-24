@@ -20,3 +20,7 @@ The following Symfony components are included (listed with their main customizat
     - default project structure is changed (`/private` instead of `/var`)
 
 For details about the modifications, please refer to the source code.
+
+## Usage
+
+See the [Developer Notes](DEVELOPER.md) file for instructions on how to use the components in your project.
