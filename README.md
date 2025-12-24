@@ -1,3 +1,20 @@
 # Symfony components
 
 This library contains customized Symfony components that can be used to create a headless web API.
+
+## Installation
+
+You can install this library via Composer:
+
+```bash
+composer require reflexive-communications/symfony-components
+```
+
+## Components
+
+The following Symfony components are included (listed with their main customizations):
+
+- BaseKernel: a wrapper around the HttpKernel component
+    - default project structure is changed (`/private` instead of `/var`)
+
+For details about the modifications, please refer to the source code.
