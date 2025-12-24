@@ -1,0 +1,30 @@
+{
+    "name": "reflexive-communications/symfony-components",
+    "description": "Customized Symfony components for headless web APIs",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sandor Semsey",
+            "email": "semsey.sandor@reflexive.hu"
+        }
+    ],
+    "require": {
+        "php": ">=8.2"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "ReflexiveCommunications\\SymfonyComponents\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ReflexiveCommunications\\SymfonyComponents\\": "tests/unit/",
+            "ReflexiveCommunications\\SymfonyComponents\\Test\\": "tests/Test/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}

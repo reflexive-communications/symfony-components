@@ -1,0 +1,11 @@
+name: CI
+on:
+  pull_request:
+    branches:
+      - main
+jobs:
+  format-other:
+    name: Code style (Other)
+    uses: es-progress/.github/.github/workflows/prettier.yml@main
+    with:
+      pattern: '**/*.{js,css,md,yml,yaml,json}'
