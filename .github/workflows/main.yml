@@ -3,9 +3,43 @@ on:
   pull_request:
     branches:
       - main
+env:
+  COMPOSER_CACHE_DIR: ~/.composer/cache
 jobs:
+  format-php:
+    name: Code style (PHP)
+    uses: es-progress/.github/.github/workflows/php-cs-fixer.yml@main
+    with:
+      params: --dry-run -v --config=.php-cs-fixer.dist
+
   format-other:
     name: Code style (Other)
     uses: es-progress/.github/.github/workflows/prettier.yml@main
     with:
       pattern: '**/*.{js,css,md,yml,yaml,json}'
+
+  tests:
+    name: Unit testing
+    runs-on: ubuntu-22.04
+    needs: [format-php, format-other]
+    steps:
+      - name: Self checkout
+        uses: actions/checkout@v4
+
+      - name: Install PHP & composer
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: 8.2
+          tools: composer
+
+      - name: Cache composer
+        uses: actions/cache@v4
+        with:
+          path: ${{ env.COMPOSER_CACHE_DIR }}
+          key: composer-${{ hashFiles('composer.lock') }}
+
+      - name: Run composer install
+        run: composer install
+
+      - name: Run tests
+        run: ./vendor/bin/phpunit --verbose --coverage-text --colors=always --testsuite all
