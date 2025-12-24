@@ -1,5 +1,7 @@
 # Symfony components
 
+[![CI](https://github.com/reflexive-communications/symfony-components/actions/workflows/main.yml/badge.svg)](https://github.com/reflexive-communications/symfony-components/actions/workflows/main.yml)
+
 This library contains customized Symfony components that can be used to create a headless web API.
 
 ## Installation
