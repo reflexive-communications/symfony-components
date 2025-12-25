@@ -11,7 +11,7 @@ Supported Symfony version: 7.4 LTS
 You can install this library via Composer:
 
 ```bash
-composer require reflexive-communications/symfony-components
+composer require reflexive-comms/symfony-components
 ```
 
 ## Components

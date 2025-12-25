@@ -4,7 +4,7 @@
  * Copyright (c) 2025 Sandor Semsey. All rights reserved.
  */
 
-namespace ReflexiveCommunications\SymfonyComponents;
+namespace ReflexiveComms\SymfonyComponents;
 
 use Symfony\Component\HttpKernel\Kernel;
 

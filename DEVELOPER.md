@@ -5,7 +5,7 @@
 To use the `BaseKernel`, extend it in your application kernel:
 
 ```php
-class Kernel extends ReflexiveCommunications\SymfonyComponents\BaseKernel
+class Kernel extends \ReflexiveComms\SymfonyComponents\BaseKernel
 {
     // Your custom kernel implementation
 }

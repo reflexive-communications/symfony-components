@@ -4,10 +4,10 @@
  * Copyright (c) 2025 Sandor Semsey. All rights reserved.
  */
 
-namespace ReflexiveCommunications\SymfonyComponents;
+namespace ReflexiveComms\SymfonyComponents;
 
-use ReflexiveCommunications\SymfonyComponents\Test\BaseTestCase;
-use ReflexiveCommunications\SymfonyComponents\Test\MockBaseKernel;
+use ReflexiveComms\SymfonyComponents\Test\BaseTestCase;
+use ReflexiveComms\SymfonyComponents\Test\MockBaseKernel;
 
 /**
  * @group kernel

@@ -1,5 +1,5 @@
 {
-    "name": "reflexive-communications/symfony-components",
+    "name": "reflexive-comms/symfony-components",
     "description": "Customized Symfony components for headless web APIs",
     "type": "library",
     "license": "MIT",
@@ -26,13 +26,13 @@
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-            "ReflexiveCommunications\\SymfonyComponents\\": "src/"
+            "ReflexiveComms\\SymfonyComponents\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "ReflexiveCommunications\\SymfonyComponents\\": "tests/unit/",
-            "ReflexiveCommunications\\SymfonyComponents\\Test\\": "tests/Test/"
+            "ReflexiveComms\\SymfonyComponents\\": "tests/unit/",
+            "ReflexiveComms\\SymfonyComponents\\Test\\": "tests/Test/"
         }
     },
     "config": {
