@@ -4,9 +4,9 @@
  * Copyright (c) 2025 Sandor Semsey. All rights reserved.
  */
 
-namespace ReflexiveCommunications\SymfonyComponents\Test;
+namespace ReflexiveComms\SymfonyComponents\Test;
 
-use ReflexiveCommunications\SymfonyComponents\BaseKernel;
+use ReflexiveComms\SymfonyComponents\BaseKernel;
 
 /**
  * Mock kernel for unit tests.
