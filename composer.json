@@ -1,5 +1,5 @@
 {
-    "name": "reflexive-communications/symfony-components",
+    "name": "reflexive-comms/symfony-components",
     "description": "Customized Symfony components for headless web APIs",
     "type": "library",
     "license": "MIT",
